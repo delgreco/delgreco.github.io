@@ -1,7 +1,5 @@
-I do other things elsewhere on the 'net, but figured I'd make a space here to dump tech thoughts.
+Some have encouraged me to start a tech blog, most likely so I'd have an outlet and stop talking to *them*.
 
-WARNING: code and jargon within.  If any of it mystifies you, ask a bot, or ask me.
-
-Thanks for dropping by.   
+So, here ya go.  Thanks for dropping by.
 
 -Marcus
