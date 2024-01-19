@@ -1,5 +1,5 @@
-Here you can say lots of fun things about your site.
+I do other things elsewhere on the 'net, but figured I'd make a space here to dump tech thoughts.
 
-Maybe say a some things about yourself.
+WARNING: code and jargon within.  If any of it mystifies you, ask a bot, or ask me.
 
-Or maybe what you plan to blog about.
+Thanks for dropping by.   -Marcus
