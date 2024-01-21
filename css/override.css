@@ -1,6 +1,6 @@
 /* overrides things in scss/_base.scss */
 a {
-  color: $brand-color;
+  /* color: $brand-color;  */
   text-decoration: none;
 
   &:visited {
