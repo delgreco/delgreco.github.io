@@ -21,7 +21,10 @@ youtube_username: marcusdelgreco
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-theme: "minima"
+# Github uses 2.5.1 as of 11/2023
+#theme: "minima"
+# use latest minima
+remote_theme: jekyll/minima
 
 kramdown:
   syntax_highlighter_opts:
