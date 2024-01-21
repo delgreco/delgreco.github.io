@@ -1,6 +1,9 @@
 // Marcus supports dark or light mode
 
-detectDarkPref();
+// don't rush, the whole doc must be loaded to manipulate body tag
+document.addEventListener("DOMContentLoaded", function() {
+    detectDarkPref();
+});
 
 function detectDarkPref() {
     let auto_dark = window.localStorage.getItem('auto_dark');
