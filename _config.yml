@@ -14,14 +14,14 @@ linkedin_username: "marcusdelgreco"
 #pinterest_username: username
 youtube_username: marcusdelgreco
 #googleplus_username: +username
+# this only repeats in the social-links in footer
+# what the minima theme has already added for Subscribe RSS
+#rss: rss
 
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
 theme: "minima"
-
-# seeing what disabling this does
-#rss: rss
 
 kramdown:
   syntax_highlighter_opts:
