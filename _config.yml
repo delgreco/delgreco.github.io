@@ -20,7 +20,8 @@ youtube_username: marcusdelgreco
 #########################################################################################
 theme: "minima"
 
-rss: rss
+# seeing what disabling this does
+#rss: rss
 
 kramdown:
   syntax_highlighter_opts:
