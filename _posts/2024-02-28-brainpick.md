@@ -17,5 +17,5 @@ Having your data available for AI training will be just as desirable as having y
 Let's follow your precious data, as though it were food, down the GI/AI tract...
 
 1. be ingested by an LLM
-2. cry "oh no!  I'm food!" and struggle a bit
+2. cry "oh no!  I've been eaten!" and struggle a bit
 3. break down and join the gut biome
