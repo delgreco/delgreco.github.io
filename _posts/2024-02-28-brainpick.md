@@ -13,3 +13,9 @@ It's clear that open source succeeds in this aspect, making its knowledge public
 Anecdotally, this bears out.  Developers are getting much better answers when asking about open source and "foundational" technologies than for proprietary software platforms.  It wouldn't be surporising to see a push by private interests to open up their documentation stores to be freely perused by AI scraper bots, so they're not left out.
 
 Having your data available for AI training will be just as desirable as having your website at the top of search results.  It'll be *more*  desirable, and we'll even pay for it, as we ended up doing for search results.  The equivalent of being 'atop' search results will be that your data was lingered on by the machine learning AI, refined and ultimately is presented to humans more cogently and perhaps now with your own biases.  That product will sell like hotcakes of glorious disinformation.
+
+Let's follow your precious data, as though it were food, down the GI/AI tract...
+
+1. be ingested by an LLM
+2. cry "oh no!  I'm food!" and struggle a bit
+3. break down and join the gut biome
