@@ -1,4 +1,4 @@
-## Keep An "Open" Mind About AI
+## Gut Feelings About AI
 
 Like the rest of you, I've been keeping a close eye on the burgeoning AI revolution with hope of understanding *it* before *it* understands *me*.  Good luck to us all.
 
