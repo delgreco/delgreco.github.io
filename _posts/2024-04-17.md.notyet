@@ -1,0 +1,13 @@
+## Debugging API Calls Like A ~~Boss~~ Boob
+
+Recently, I stood up a simple JSON web service on Apache in my usual way, the basis for an API for new client calls to be expected from a commercial system used in $dayjob.
+
+The calls from the commerical system hung.  And hung.  And finally timed out.
+
+```
+sudo tcpdump -i [network interface] -n -t -vv -X -A src [IP address]
+```
+
+-- intr0 --
+
+
