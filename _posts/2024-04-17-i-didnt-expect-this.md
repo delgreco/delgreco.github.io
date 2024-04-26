@@ -1,4 +1,4 @@
-## Debugging API Calls Like A ~~Boob~~ Boss
+## I Didn't Expect This
 
 Recently, I stood up a simple JSON web service on Apache in my usual way, the basis for an API for new client calls to be expected from a commercial system used in $dayjob.  Tests of the API with a remote Python script, and by a colleague using Postman, were both successful.
 
