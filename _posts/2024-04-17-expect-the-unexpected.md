@@ -10,7 +10,7 @@ Inside this mental box, I couldn't believe these client calls were even making i
 
 After careful research (okay fine, after a conversation with chatGPT and various AIs) I arrived at the following effective `tcpdump` command with human readable output, and I was able to see...
 
-```
+```bash
 sudo tcpdump -i [network interface] -n -t -vv -X -A src [IP address]
 ```
 
@@ -28,7 +28,7 @@ I wasn't familiar with this.  Developer.mozilla.org says:
 
 Apparently this has wide browser support and is generally not a nuisance.  But as it happens, the Microsoft .NET client (making the calls from our commercial system) behaves in a default manner incompatible with Apache's implementation of the 100-continue message (I'm running httpd 2.4.6).  This is all immortalized in  [the Stack Overflow question](https://stackoverflow.com/questions/3889574/apache-and-mod-proxy-not-handling-http-100-continue-from-client-http-417) where brave developers before me struggled with and finally slew the dragon by applying the hacky strategy of simply stripping the `Expect: 100-continue` header early enough in the request cycle to allow Apache to ignore it:
 
-```
+```xml
 # this was placed in the Apache config file
 <IfModule mod_headers.c>
     RequestHeader unset Expect early
