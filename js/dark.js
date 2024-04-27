@@ -46,7 +46,7 @@ function goDark() {
     // Loop through each <code> element and set the CSS properties
     for (var i = 0; i < codeElements.length; i++) {
         var codeElement = codeElements[i];
-        if ( codeElement.className === '' ) {
+        if ( ! codeElement.classList || codeElement.classList.length === 0 ) {
             codeElement.style.backgroundColor = 'black';
         }
     }
@@ -73,7 +73,7 @@ function goLight() {
     // Loop through each <code> element and set the CSS properties
     for (var i = 0; i < codeElements.length; i++) {
         var codeElement = codeElements[i];
-        if ( codeElement.className === '' ) {
+        if ( ! codeElement.classList || codeElement.classList.length === 0 ) {
             codeElement.style.backgroundColor = 'white';
         }
     }
