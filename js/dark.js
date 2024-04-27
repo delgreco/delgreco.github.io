@@ -47,7 +47,7 @@ function goDark() {
     for (var i = 0; i < codeElements.length; i++) {
         var codeElement = codeElements[i];
         if ( ! codeElement.classList || codeElement.classList.length === 0 ) {
-            codeElement.style.backgroundColor = 'black';
+            //codeElement.style.backgroundColor = 'black';
         }
     }
     
@@ -74,7 +74,7 @@ function goLight() {
     for (var i = 0; i < codeElements.length; i++) {
         var codeElement = codeElements[i];
         if ( ! codeElement.classList || codeElement.classList.length === 0 ) {
-            codeElement.style.backgroundColor = 'white';
+            //codeElement.style.backgroundColor = 'white';
         }
     }
 
