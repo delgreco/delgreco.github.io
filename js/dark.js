@@ -43,14 +43,14 @@ function goDark() {
 
     // Get all <code> elements on the page
     var codeElements = document.getElementsByTagName('code');
-
     // Loop through each <code> element and set the CSS properties
     for (var i = 0; i < codeElements.length; i++) {
         var codeElement = codeElements[i];
         // Set CSS properties for <code> elements
-        codeElement.style.backgroundColor = 'darkgray';
+        codeElement.style.backgroundColor = 'black';
         // Add more CSS properties as needed
     }
+    
     //document.getElementById("gallery_head").classList.add('gallery_head_dark');
     let gallery_banner = document.getElementById("gallery_head");
     let gallery_mm = document.getElementById("gallery_mm_logo");
@@ -67,6 +67,18 @@ function goLight() {
     let body = document.querySelector('body');
     body.style.backgroundColor = "#FFFFFF";
     body.style.color = "#000000";
+
+    // Get all <code> elements on the page
+    var codeElements = document.getElementsByTagName('code');
+    // Loop through each <code> element and set the CSS properties
+    for (var i = 0; i < codeElements.length; i++) {
+        var codeElement = codeElements[i];
+        // Set CSS properties for <code> elements
+        codeElement.style.backgroundColor = 'white';
+        // Add more CSS properties as needed
+    }
+
+    
     let gallery_banner = document.getElementById("gallery_head");
     let gallery_mm = document.getElementById("gallery_mm_logo");
     if ( gallery_banner ) {
