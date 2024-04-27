@@ -46,9 +46,9 @@ function goDark() {
     // Loop through each <code> element and set the CSS properties
     for (var i = 0; i < codeElements.length; i++) {
         var codeElement = codeElements[i];
-        // Set CSS properties for <code> elements
-        codeElement.style.backgroundColor = 'black';
-        // Add more CSS properties as needed
+        if ( codeElement.className === '' ) {
+            codeElement.style.backgroundColor = 'black';
+        }
     }
     
     //document.getElementById("gallery_head").classList.add('gallery_head_dark');
@@ -73,9 +73,9 @@ function goLight() {
     // Loop through each <code> element and set the CSS properties
     for (var i = 0; i < codeElements.length; i++) {
         var codeElement = codeElements[i];
-        // Set CSS properties for <code> elements
-        codeElement.style.backgroundColor = 'white';
-        // Add more CSS properties as needed
+        if ( codeElement.className === '' ) {
+            codeElement.style.backgroundColor = 'white';
+        }
     }
 
     
