@@ -40,6 +40,17 @@ function goDark() {
     let body = document.querySelector('body');
     body.style.backgroundColor = "#000000";
     body.style.color = "#FFFFFF";
+
+    // Get all <code> elements on the page
+    var codeElements = document.getElementsByTagName('code');
+
+    // Loop through each <code> element and set the CSS properties
+    for (var i = 0; i < codeElements.length; i++) {
+        var codeElement = codeElements[i];
+        // Set CSS properties for <code> elements
+        codeElement.style.backgroundColor = 'darkgray';
+        // Add more CSS properties as needed
+    }
     //document.getElementById("gallery_head").classList.add('gallery_head_dark');
     let gallery_banner = document.getElementById("gallery_head");
     let gallery_mm = document.getElementById("gallery_mm_logo");
