@@ -16,7 +16,7 @@ sudo tcpdump -i [network interface] -n -t -vv -X -A src [IP address]
 
 ... that I was wrong (gasp!): the client call *was* making it to my server.  Something *else* had to be hanging things up.
 
-Careful of the examination of the headers being sent by the commercial system revealed this guy:
+Careful examination of the headers being sent by the commercial system revealed this guy:
 
 ```
 Expect: 100-continue
