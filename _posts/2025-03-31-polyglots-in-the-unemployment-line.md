@@ -18,3 +18,5 @@ AI is quickly making polyglot programmers of us all... even those without any pr
 
 The robots are coming.  They're already here.  Don't worry about programming language.  Worry about your job. 
  Everything is about to change.
+
+ ![yeah, AI made this too](/assets/images/unemployed_coders.png)
