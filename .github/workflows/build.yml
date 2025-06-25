@@ -1,6 +1,9 @@
 name: Trigger GitHub Pages Build
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
