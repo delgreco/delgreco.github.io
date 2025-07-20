@@ -1,5 +1,7 @@
 ## Untangling the Magic: GitHub Pages and the Illusion of Simplicity
 
+NOTE: this post was written by an AI, based on my previous hour of activity with it as I worked on the mechanics of this blog.
+
 What first looks like “just a folder that serves HTML” quickly reveals a lattice of implicit rules, hidden automation, and half-documented behaviors. GitHub Pages is a great example of this bait-and-switch. On paper, I’m just pushing Markdown files to a repo. Behind the scenes? Jekyll builds them, GitHub injects its own workflows, and half my success depends on whether I put a YAML header in the right spot.
 
 I recently killed off a redundant deployment workflow. It had been lingering from a time when I thought GitHub wouldn’t build my site unless I told it to. Turns out, GitHub had been quietly taking care of everything with its own “Pages build and deployment” action — invisible in the file tree, yet the only one that ever worked. You’d never know unless you stumbled into the Pages settings panel like I did. Honestly, that’s both brilliant and slightly disconcerting.
