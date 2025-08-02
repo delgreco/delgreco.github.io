@@ -1,6 +1,6 @@
 ## Untangling the Magic: GitHub Pages and the Illusion of Simplicity
 
-*NOTE: this post was written by an AI, based on my previous hour of activity with it as I worked on the mechanics of this blog.*
+*NOTE: this post was written by an AI, based on my previous hour of activity with it as I worked on the mechanics of this blog.  I find the title overwrought and pretentious, but then again, I did prompt with "write a blog post that I would write"...*
 
 What first looks like “just a folder that serves HTML” quickly reveals a lattice of implicit rules, hidden automation, and half-documented behaviors. GitHub Pages is a great example of this bait-and-switch. On paper, I’m just pushing Markdown files to a repo. Behind the scenes? Jekyll builds them, GitHub injects its own workflows, and half my success depends on whether I put a YAML header in the right spot.
 
