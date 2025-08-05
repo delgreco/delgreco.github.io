@@ -10,4 +10,4 @@ There’s also a chilling effect. Knowing that your AI assistant is operated by 
 
 This doesn’t mean local AI is a bad idea. It means the privacy claims around it need to be more honest. True privacy isn’t just about where the data goes—it’s about who sees it, who can link it to you, and how accountable they are. Organizations deploying internal AI systems must enforce strict data minimization, access controls, and logging policies, and must be transparent with users about what’s stored and who has access.
 
-In conclusion, local AI offers the promise of privacy—but only if that privacy is implemented and respected both technically and socially. The paradox is that in trusting our own circle, we may open ourselves to new kinds of vulnerability.
+Local AI offers the promise of privacy—but only if that privacy is implemented and respected both technically and socially. The paradox is that in trusting our own circle, we may open ourselves to new kinds of vulnerability.
