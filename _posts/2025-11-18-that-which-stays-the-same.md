@@ -10,4 +10,4 @@ How often is the cost of these risks measured soberly against the benefit, the r
 
 Granted, software is more malleable that a building, but nonetheless there is a steep cost of labor to replace it.  And replace it.  And replace it again.  Any length of time in an IT organization, unless the leadership is unusually shrewd and consistent, will fall into this dizzying pattern.
 
-And that's why your IT department seems to be spending too much money.
+Break free, settle into stability.  It's ok not be trading up all the time.
